@@ -24,7 +24,7 @@ A printable version of the project requirements can be found [here](./assets/pro
 - The front-end application is built with React.
 - MongoDB is used as the database management system.
 - The back-end and front-end applications implement JWT token-based authentication to sign up, sign in, and sign out users.
-- Authorization is implemented across the front-end and back-end. Guest users (those not signed in) should not be able to create, update, or delete data in the application or access functionality allowing those actions.
+- (OPTIONAL) Authorization is implemented across the front-end and back-end. Guest users (those not signed in) should not be able to create, update, or delete data in the application or access functionality allowing those actions.
 - The project has at least two data entities in addition to the User model. At least one entity must have a relationship with the User model.
 - The project has full CRUD functionality on both the back-end and front-end.
 - The front-end application does not hold any secret keys. Public APIs that require secret keys must be accessed from the back-end application.
@@ -48,7 +48,7 @@ A printable version of the project requirements can be found [here](./assets/pro
 - The app exhibits a visual theme, like a consistent color palette and cohesive layout across pages.
 - The app is easily navigable by a first-time user. For example, navigation should be done through links instead of having to type in a URL to navigate around the app.
 - The app utilizes CSS Flexbox and/or Grid for page layout design.
-- Colors used in the app have appropriate contrast that meet the WCAG 2.0 level AA standard.
+- Colors used in the app have appropriate contrast and ideally meet the WCAG 2.0 level AA standard (optional).
 - When editing an item, the form is pre-filled with that item's details.
 - Only the user who created a piece of data can see and interact with the UI for editing or deleting that data.
 - All images have `alt` text.
